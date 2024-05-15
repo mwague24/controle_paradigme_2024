@@ -1,4 +1,4 @@
-package controle_poo;
+package controle_poo_partie1;
 
 public class Membre extends Personne{
 
@@ -18,6 +18,15 @@ public class Membre extends Personne{
 	
 	
 	
-	
+public void afficherDetails() {
+		
+		System.out.println("nom: " + this.nom);
+		System.out.println("Prenom: " + this.prenom);
+		System.out.println("Id: " + this.id);
+		System.out.println("dateAdhesion: " + this.dateAdhesion);
+		System.out.println("statut: " + this.statut);
+		
+		
+	}
 
 }

@@ -1,4 +1,4 @@
-package controle_poo;
+package controle_poo_partie1;
 
 public class Livre {
 	public String titre;
@@ -54,6 +54,16 @@ public class Livre {
 	public boolean setDisponible(boolean disponible) {
 		return this.disponible = disponible;
 	
+	}
+	
+	// méthode afficherDetails
+	
+	public void AfficheDetails() {
+		
+		System.out.println("titre du livre " + this.titre);
+		System.out.println("l'auteur est : "+ this.auteur);
+		System.out.println("L'isbn est :" + this.isbn);
+		System.out.println("le est disponible: "+ this.disponible);
 	}
 	
 }

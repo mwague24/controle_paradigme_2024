@@ -1,4 +1,4 @@
-package controle_poo;
+package controle_poo_partie1;
 
 public abstract class Personne {
 	
@@ -18,6 +18,10 @@ public abstract class Personne {
 // fonction afficherDetails
 	
 	public void afficherDetails() {
+		
+		System.out.println("nom: " + this.nom);
+		System.out.println("Prenom: " + this.prenom);
+		System.out.println("Id: " + this.id);
 		
 	}
 	
